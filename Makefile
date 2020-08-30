@@ -17,5 +17,5 @@ install:
 	cp bluebinder $(DESTDIR)/usr/sbin
 
 clean:
-	rm bluebinder
+	rm -f bluebinder
 
