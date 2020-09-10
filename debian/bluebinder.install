@@ -1,2 +1,2 @@
 bluebinder_*.sh usr/bin/droid
-bluebinder.service lib/systemd/system/graphical.target.wants
+bluebinder.service lib/systemd/system
