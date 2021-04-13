@@ -5,7 +5,7 @@ Before=bluetooth.service
 
 [Service]
 Type=notify
-ExecStartPre=/usr/bin/droid/bluebinder_wait.sh
+ExecStartPre=/usr/bin/waitforservice init.svc.*bluetooth*
 ExecStart=/usr/sbin/bluebinder
 ExecStartPost=/usr/bin/droid/bluebinder_post.sh
 Restart=always
